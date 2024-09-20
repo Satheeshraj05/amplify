@@ -2,8 +2,8 @@ const AWS = require('aws-sdk');
 const s3 = new AWS.S3();
 
 exports.handler = async (event) => {
-    const bucket = 'amplifyjson';  // Your S3 bucket name
-    const key = 'info.json';       // Your S3 JSON file
+    const bucket = 'amplifyjson';  // S3 bucket name
+    const key = 'info.json';       // S3 JSON file
 
     try {
         // Fetch the JSON file from S3
