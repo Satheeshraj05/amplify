@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Auth } from 'aws-amplify';
 import { useHistory } from 'react-router-dom';
-import './App.css'; // Import App.css if needed
+import './App.css'; 
 
 const SignIn = () => {
     const [username, setUsername] = useState('');
